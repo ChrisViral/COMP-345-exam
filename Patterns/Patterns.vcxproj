@@ -150,6 +150,9 @@
     <ClCompile Include="Patterns.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AbstractFactory\AbstractFactory.h" />
+    <ClInclude Include="AbstractFactory\ObjectFactory.h" />
+    <ClInclude Include="Builder\Builder.h" />
     <ClInclude Include="Factory\Factory.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

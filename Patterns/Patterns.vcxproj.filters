@@ -7,10 +7,25 @@
     <Filter Include="Factory">
       <UniqueIdentifier>{ae099e0d-0283-4e74-be86-4bf5e9b1e8c6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="AbstractFactory">
+      <UniqueIdentifier>{2f593348-17b3-4f09-a13e-bcba153e8e41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Builder">
+      <UniqueIdentifier>{0610adc2-7e39-42fa-94dd-fa133fd09ffa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Factory\Factory.h">
       <Filter>Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\ObjectFactory.h">
+      <Filter>AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\AbstractFactory.h">
+      <Filter>AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder\Builder.h">
+      <Filter>Builder</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
