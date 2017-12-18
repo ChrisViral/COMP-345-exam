@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Code\DigitalClockObserver.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Observer.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Subject.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\ClockTimer.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="ClockDriver.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code\ClockTimer.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\DigitalClockObserver.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Observer.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Subject.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Code">
+      <UniqueIdentifier>{9878dfc7-7c08-4078-8d9a-ddb7d09f3954}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
