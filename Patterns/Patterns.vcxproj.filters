@@ -2,6 +2,9 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="Patterns.cpp" />
+    <ClCompile Include="Singleton\Singleton.cpp">
+      <Filter>Singleton</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Factory">
@@ -12,6 +15,9 @@
     </Filter>
     <Filter Include="Builder">
       <UniqueIdentifier>{0610adc2-7e39-42fa-94dd-fa133fd09ffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton">
+      <UniqueIdentifier>{b82101f6-752b-4799-80d2-020467197efa}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -26,6 +32,15 @@
     </ClInclude>
     <ClInclude Include="Builder\Builder.h">
       <Filter>Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder\ObjectBuilder.h">
+      <Filter>Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder\Director.h">
+      <Filter>Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton\Singleton.h">
+      <Filter>Singleton</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -148,12 +148,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Patterns.cpp" />
+    <ClCompile Include="Singleton\Singleton.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory\AbstractFactory.h" />
     <ClInclude Include="AbstractFactory\ObjectFactory.h" />
     <ClInclude Include="Builder\Builder.h" />
+    <ClInclude Include="Builder\Director.h" />
+    <ClInclude Include="Builder\ObjectBuilder.h" />
     <ClInclude Include="Factory\Factory.h" />
+    <ClInclude Include="Singleton\Singleton.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
