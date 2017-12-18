@@ -19,6 +19,9 @@
     <Filter Include="Singleton">
       <UniqueIdentifier>{b82101f6-752b-4799-80d2-020467197efa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Adapter">
+      <UniqueIdentifier>{7b5b6c14-402f-427c-8da7-a7f14f7cb1e1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Factory\Factory.h">
@@ -41,6 +44,18 @@
     </ClInclude>
     <ClInclude Include="Singleton\Singleton.h">
       <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Adapter\Target.h">
+      <Filter>Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Adapter\Adapter.h">
+      <Filter>Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Adapter\TwoWayAdapter.h">
+      <Filter>Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Adapter\Adaptee.h">
+      <Filter>Adapter</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

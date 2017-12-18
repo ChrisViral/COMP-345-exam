@@ -153,6 +153,10 @@
   <ItemGroup>
     <ClInclude Include="AbstractFactory\AbstractFactory.h" />
     <ClInclude Include="AbstractFactory\ObjectFactory.h" />
+    <ClInclude Include="Adapter\Adaptee.h" />
+    <ClInclude Include="Adapter\Adapter.h" />
+    <ClInclude Include="Adapter\Target.h" />
+    <ClInclude Include="Adapter\TwoWayAdapter.h" />
     <ClInclude Include="Builder\Builder.h" />
     <ClInclude Include="Builder\Director.h" />
     <ClInclude Include="Builder\ObjectBuilder.h" />
