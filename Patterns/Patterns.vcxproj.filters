@@ -22,6 +22,9 @@
     <Filter Include="Adapter">
       <UniqueIdentifier>{7b5b6c14-402f-427c-8da7-a7f14f7cb1e1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Decorator">
+      <UniqueIdentifier>{27bd9c53-6971-4370-bd64-150cbb4b2dac}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Factory\Factory.h">
@@ -56,6 +59,15 @@
     </ClInclude>
     <ClInclude Include="Adapter\Adaptee.h">
       <Filter>Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Decorator\Object.h">
+      <Filter>Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Decorator\Decorator.h">
+      <Filter>Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Decorator\Decorated.h">
+      <Filter>Decorator</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

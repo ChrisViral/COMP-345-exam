@@ -160,6 +160,9 @@
     <ClInclude Include="Builder\Builder.h" />
     <ClInclude Include="Builder\Director.h" />
     <ClInclude Include="Builder\ObjectBuilder.h" />
+    <ClInclude Include="Decorator\Decorated.h" />
+    <ClInclude Include="Decorator\Decorator.h" />
+    <ClInclude Include="Decorator\Object.h" />
     <ClInclude Include="Factory\Factory.h" />
     <ClInclude Include="Singleton\Singleton.h" />
   </ItemGroup>
