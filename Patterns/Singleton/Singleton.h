@@ -11,6 +11,8 @@ public:
 
 	//TODO: Add Singleton data
 
+	void foo();
+
 private:
 	Singleton();
 	~Singleton();
