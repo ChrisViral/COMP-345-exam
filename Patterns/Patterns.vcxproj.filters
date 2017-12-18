@@ -11,6 +11,9 @@
     <ClCompile Include="Observer\Subject.cpp">
       <Filter>Observer</Filter>
     </ClCompile>
+    <ClCompile Include="Strategy\Strategycpp.cpp">
+      <Filter>Strategy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Factory">
@@ -33,6 +36,9 @@
     </Filter>
     <Filter Include="Observer">
       <UniqueIdentifier>{46f9ab3a-df7f-4939-8752-7a1bd51f48a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strategy">
+      <UniqueIdentifier>{c87879be-e3bf-4fcd-ae37-9eb29e363c01}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -89,6 +95,15 @@
     </ClInclude>
     <ClInclude Include="Observer\Foo.h">
       <Filter>Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy\Strategy.h">
+      <Filter>Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy\FooStrategy.h">
+      <Filter>Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy\User.h">
+      <Filter>Strategy</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

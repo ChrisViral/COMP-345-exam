@@ -151,6 +151,7 @@
     <ClCompile Include="Observer\Subject.cpp" />
     <ClCompile Include="Patterns.cpp" />
     <ClCompile Include="Singleton\Singleton.cpp" />
+    <ClCompile Include="Strategy\Strategycpp.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory\AbstractFactory.h" />
@@ -171,6 +172,9 @@
     <ClInclude Include="Observer\Observer.h" />
     <ClInclude Include="Observer\Subject.h" />
     <ClInclude Include="Singleton\Singleton.h" />
+    <ClInclude Include="Strategy\FooStrategy.h" />
+    <ClInclude Include="Strategy\Strategy.h" />
+    <ClInclude Include="Strategy\User.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
