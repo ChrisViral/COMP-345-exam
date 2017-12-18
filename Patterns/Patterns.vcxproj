@@ -147,6 +147,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Observer\Observer.cpp" />
+    <ClCompile Include="Observer\Subject.cpp" />
     <ClCompile Include="Patterns.cpp" />
     <ClCompile Include="Singleton\Singleton.cpp" />
   </ItemGroup>
@@ -164,6 +166,10 @@
     <ClInclude Include="Decorator\Decorator.h" />
     <ClInclude Include="Decorator\Object.h" />
     <ClInclude Include="Factory\Factory.h" />
+    <ClInclude Include="Observer\FooObserver.h" />
+    <ClInclude Include="Observer\Foo.h" />
+    <ClInclude Include="Observer\Observer.h" />
+    <ClInclude Include="Observer\Subject.h" />
     <ClInclude Include="Singleton\Singleton.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
