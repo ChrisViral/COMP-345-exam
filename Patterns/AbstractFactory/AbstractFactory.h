@@ -7,8 +7,6 @@ public:
 	~AbstractFactory() { }
 
 	//TODO: Implement methods
-	void* createObject() override
-	{
-		return nullptr;
-	}
+
+	void* createObject() override { return nullptr; }
 };

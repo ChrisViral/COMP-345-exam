@@ -8,5 +8,6 @@ public:
 	~Decorated() { }
 
 	//TODO: Add new methods
+
 	void bar() { }
 };

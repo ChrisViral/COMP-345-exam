@@ -7,5 +7,6 @@ public:
 	virtual ~Adaptee() { }
 
 	//TODO: Implement methos
+
 	virtual void* bar() { return nullptr; }
 };

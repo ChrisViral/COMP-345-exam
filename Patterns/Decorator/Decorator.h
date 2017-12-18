@@ -8,6 +8,7 @@ public:
 	virtual ~Decorator() = 0;
 
 	//TODO: Wrap base class methods
+
 	void foo() override { object->foo(); }
 
 private:

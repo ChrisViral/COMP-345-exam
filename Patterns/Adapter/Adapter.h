@@ -9,6 +9,7 @@ public:
 	~Adapter() { }
 
 	//TODO: Override methods
+
 	void* foo() override { return adaptee->bar(); }
 
 private:

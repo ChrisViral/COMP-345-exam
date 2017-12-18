@@ -7,5 +7,6 @@ public:
 	~ObjectBuilder() { }
 
 	//TODO: Override builder methods
+
 	void build() override { }
 };

@@ -10,6 +10,7 @@ public:
 	~TwoWayAdapter() { }
 
 	//TODO: Override methods
+
 	void* foo() override { return adaptee->bar(); }
 	void* bar() override { return target->foo(); }
 

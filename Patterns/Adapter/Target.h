@@ -7,5 +7,6 @@ public:
 	virtual ~Target() { }
 
 	//TODO: Implement methods
+
 	virtual void* foo() { return nullptr; }
 };

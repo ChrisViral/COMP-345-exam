@@ -7,6 +7,7 @@ public:
 	virtual ~Builder() = 0;
 
 	//TODO: Setup builder methods
+
 	void* get() const { return object; }
 	void createNew() { object = static_cast<void*>(new int); }
 	virtual void build() = 0;
