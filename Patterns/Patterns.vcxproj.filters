@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Patterns.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Factory">
+      <UniqueIdentifier>{ae099e0d-0283-4e74-be86-4bf5e9b1e8c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Factory\Factory.h">
+      <Filter>Factory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
