@@ -147,6 +147,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AbstractFactory\ObjectFactory.cpp" />
+    <ClCompile Include="Builder\Builder.cpp" />
+    <ClCompile Include="Decorator\Decorator.cpp" />
+    <ClCompile Include="Decorator\Object.cpp" />
     <ClCompile Include="Observer\Observer.cpp" />
     <ClCompile Include="Observer\Subject.cpp" />
     <ClCompile Include="Patterns.cpp" />

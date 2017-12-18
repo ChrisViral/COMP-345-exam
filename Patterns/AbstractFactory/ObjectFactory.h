@@ -3,7 +3,7 @@
 class ObjectFactory
 {
 public:
-	ObjectFactory() { }
+	ObjectFactory();
 	virtual ~ObjectFactory() = 0;
 
 	//TODO: Setup needed methods

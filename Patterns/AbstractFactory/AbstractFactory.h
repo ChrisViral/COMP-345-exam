@@ -4,6 +4,7 @@
 class AbstractFactory : public ObjectFactory
 {
 public:
+	AbstractFactory() { }
 	~AbstractFactory() { }
 
 	//TODO: Implement methods

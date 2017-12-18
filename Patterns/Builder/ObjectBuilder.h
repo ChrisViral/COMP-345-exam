@@ -4,6 +4,7 @@
 class ObjectBuilder : public Builder
 {
 public:
+	ObjectBuilder() { }
 	~ObjectBuilder() { }
 
 	//TODO: Override builder methods

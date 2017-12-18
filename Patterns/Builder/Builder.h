@@ -3,20 +3,15 @@
 class Builder
 {
 public:
-	Builder() : object(nullptr) { }
+	Builder();
 	virtual ~Builder() = 0;
 
 	//TODO: Setup builder methods
 
 	void* get() const { return object; }
-	void createNew() { object = static_cast<void*>(new int); }
+	virtual void createNew();
 	virtual void build() = 0;
 
 protected:
 	void* object;
 };
-
-inline Builder::~Builder()
-{
-	delete object;
-}
