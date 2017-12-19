@@ -10,6 +10,8 @@ public:
 	explicit MinutesDecorator(DigitalClockObserver* observer);
 	~MinutesDecorator();
 
+	void Update() override;
+	void display() const override;
 	string constructDisplayString() const override;
 };
 

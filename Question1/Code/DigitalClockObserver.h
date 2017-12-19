@@ -13,7 +13,7 @@ public:
 
 	ClockTimer* getTimer() const { return _subject; }
 	void Update() override;
-	void display() const;
+	virtual void display() const;
 	virtual string constructDisplayString() const;
 
 protected:

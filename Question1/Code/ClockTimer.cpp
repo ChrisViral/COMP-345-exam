@@ -1,8 +1,4 @@
 #include "ClockTimer.h"
-#include <iostream>
-
-using std::cout;
-using std::endl;
 
 ClockTimer::ClockTimer(): hour(0), minute(0), second(0) { }
 
@@ -36,5 +32,4 @@ void ClockTimer::tick()
 
 	// The Observable object notifies all its registered observers       
 	Notify();
-	cout << endl;
 }

@@ -10,7 +10,8 @@ public:
 	explicit ObserverDecorator(DigitalClockObserver* observer);
 	virtual ~ObserverDecorator() = 0;
 
-	void Update() override { observer->Update(); }
+	void Update() override = 0;
+	void display() const override = 0;
 	string constructDisplayString() const override = 0;
 
 protected:
