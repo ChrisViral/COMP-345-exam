@@ -12,8 +12,9 @@ public:
 	virtual ~DigitalClockObserver();
 
 	ClockTimer* getTimer() const { return _subject; }
+
 	void Update() override;
-	virtual void display() const;
+    void display() const;
 	virtual string constructDisplayString() const;
 
 protected:

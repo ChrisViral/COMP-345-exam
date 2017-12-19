@@ -150,6 +150,7 @@
     <ClCompile Include="ClockDriver.cpp" />
     <ClCompile Include="Code\ClockTimer.cpp" />
     <ClCompile Include="Code\DigitalClockObserver.cpp" />
+    <ClCompile Include="Code\HoursDecorator.cpp" />
     <ClCompile Include="Code\MinutesDecorator.cpp" />
     <ClCompile Include="Code\Observer.cpp" />
     <ClCompile Include="Code\ObserverDecorator.cpp" />
@@ -158,6 +159,7 @@
   <ItemGroup>
     <ClInclude Include="Code\ClockTimer.h" />
     <ClInclude Include="Code\DigitalClockObserver.h" />
+    <ClInclude Include="Code\HoursDecorator.h" />
     <ClInclude Include="Code\MinutesDecorator.h" />
     <ClInclude Include="Code\Observer.h" />
     <ClInclude Include="Code\ObserverDecorator.h" />

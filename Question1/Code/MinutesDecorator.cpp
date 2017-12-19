@@ -10,18 +10,9 @@ MinutesDecorator::MinutesDecorator(DigitalClockObserver* observer) : ObserverDec
 
 MinutesDecorator::~MinutesDecorator() { }
 
-void MinutesDecorator::Update()
-{
-	display();
-}
-
-void MinutesDecorator::display() const
-{
-	cout << constructDisplayString() << endl;
-}
-
 string MinutesDecorator::constructDisplayString() const
 {
-	return observer->constructDisplayString() + to_string(_subject->getMinute()) + " minutes";
+	//Display previous observer string and append new
+	return observer->constructDisplayString() + to_string(_subject->getMinute()) + " minutes ";
 }
 

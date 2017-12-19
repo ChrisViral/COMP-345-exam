@@ -20,6 +20,9 @@
     <ClCompile Include="Code\MinutesDecorator.cpp">
       <Filter>Code</Filter>
     </ClCompile>
+    <ClCompile Include="Code\HoursDecorator.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Code\ClockTimer.h">
@@ -38,6 +41,9 @@
       <Filter>Code</Filter>
     </ClInclude>
     <ClInclude Include="Code\MinutesDecorator.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\HoursDecorator.h">
       <Filter>Code</Filter>
     </ClInclude>
   </ItemGroup>
