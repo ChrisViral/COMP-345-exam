@@ -1,14 +1,18 @@
 #pragma once
-#include "Observer.h"
+#include <string>
+#include "DigitalClockObserver.h"
 
-class ObserverDecorator : public Observer
+using std::string;
+
+class ObserverDecorator : public DigitalClockObserver
 {
 public:
-	explicit ObserverDecorator(Observer* observer);
+	explicit ObserverDecorator(DigitalClockObserver* observer);
 	virtual ~ObserverDecorator() = 0;
 
 	void Update() override { observer->Update(); }
+	string constructDisplayString() const override = 0;
 
 protected:
-	Observer * observer;
+	DigitalClockObserver * observer;
 };

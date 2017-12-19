@@ -1,21 +1,17 @@
 #include "MinutesDecorator.h"
-#include <iostream>
-#include <string>
 #include "DigitalClockObserver.h"
 
-using std::cout;
 using std::to_string;
 
-MinutesDecorator::MinutesDecorator(Observer* observer) : ObserverDecorator(observer) { }
+MinutesDecorator::MinutesDecorator(DigitalClockObserver* observer) : ObserverDecorator(observer)
+{
+	_subject = observer->getTimer();
+}
 
 MinutesDecorator::~MinutesDecorator() { }
 
-void MinutesDecorator::Update()
+string MinutesDecorator::constructDisplayString() const
 {
-	ObserverDecorator::Update();
-	DigitalClockObserver* p = dynamic_cast<DigitalClockObserver*>(observer);
-	if (p != nullptr)
-	{
-		cout << to_string(p->getTimer()->getMinute()) + " minutes";
-	}
+	return observer->constructDisplayString() + to_string(_subject->getMinute()) + " minutes";
 }
+

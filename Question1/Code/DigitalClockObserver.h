@@ -2,18 +2,20 @@
 #include "Observer.h"
 #include "ClockTimer.h"
 
+using std::string;
+
 class DigitalClockObserver : public Observer
 {
 public:
 	DigitalClockObserver();
 	explicit DigitalClockObserver(ClockTimer* s);
-	~DigitalClockObserver();
+	virtual ~DigitalClockObserver();
 
 	ClockTimer* getTimer() const { return _subject; }
 	void Update() override;
 	void display() const;
-	std::string constructDisplayString() const;
+	virtual string constructDisplayString() const;
 
-private:
-	ClockTimer* _subject;
+protected:
+    ClockTimer* _subject;
 };

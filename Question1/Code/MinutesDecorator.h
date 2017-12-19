@@ -1,12 +1,15 @@
 #pragma once
 #include "ObserverDecorator.h"
+#include <string>
+
+using std::string;
 
 class MinutesDecorator : public ObserverDecorator
 {
 public:
-	explicit MinutesDecorator(Observer* observer);
+	explicit MinutesDecorator(DigitalClockObserver* observer);
 	~MinutesDecorator();
 
-	void Update() override;
+	string constructDisplayString() const override;
 };
 

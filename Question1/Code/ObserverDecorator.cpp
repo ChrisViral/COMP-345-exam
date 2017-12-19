@@ -1,5 +1,5 @@
 #include "ObserverDecorator.h"
 
-ObserverDecorator::ObserverDecorator(Observer* observer): observer(observer) { }
+ObserverDecorator::ObserverDecorator(DigitalClockObserver* observer): observer(observer) { }
 
 ObserverDecorator::~ObserverDecorator() { }
