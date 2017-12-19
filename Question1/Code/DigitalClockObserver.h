@@ -9,6 +9,7 @@ public:
 	explicit DigitalClockObserver(ClockTimer* s);
 	~DigitalClockObserver();
 
+	ClockTimer* getTimer() const { return _subject; }
 	void Update() override;
 	void display() const;
 	std::string constructDisplayString() const;

@@ -30,7 +30,7 @@ void DigitalClockObserver::Update()
 
 void DigitalClockObserver::display() const
 {
-	cout << constructDisplayString() << endl;
+	cout << constructDisplayString();
 };
 
 string DigitalClockObserver::constructDisplayString() const
