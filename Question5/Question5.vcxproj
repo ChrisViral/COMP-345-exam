@@ -78,6 +78,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="question5InitialCode.cpp" />
+    <ClCompile Include="question5Part1Answer.cpp" />
+    <ClCompile Include="question5Part2Answer.cpp" />
+    <ClCompile Include="question5Part3Answer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

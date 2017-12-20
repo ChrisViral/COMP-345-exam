@@ -52,7 +52,7 @@ public:
 	A(int i) : G(i), E(i), F(i), D(i), B(i), C(i) { cout << "in A::A(int)\n"; }
 };
 
-
+/*
 int main()
 {
 	A e1(2);
@@ -62,3 +62,4 @@ int main()
 	system("PAUSE");
 	return 0;
 }
+*/

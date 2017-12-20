@@ -2,5 +2,8 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="question5InitialCode.cpp" />
+    <ClCompile Include="question5Part1Answer.cpp" />
+    <ClCompile Include="question5Part2Answer.cpp" />
+    <ClCompile Include="question5Part3Answer.cpp" />
   </ItemGroup>
 </Project>
