@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="currentCode\CarController.cpp">
+      <Filter>currentNode</Filter>
+    </ClCompile>
+    <ClCompile Include="currentCode\CarDriver.cpp">
+      <Filter>currentNode</Filter>
+    </ClCompile>
+    <ClCompile Include="currentCode\Sensor.cpp">
+      <Filter>currentNode</Filter>
+    </ClCompile>
+    <ClCompile Include="newSensorDriver\SensorV2.cpp">
+      <Filter>newSensorDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="currentCode\SensorExceptionSupressor.cpp">
+      <Filter>currentNode</Filter>
+    </ClCompile>
+    <ClCompile Include="newSensorDriver\Exceptions.cpp">
+      <Filter>newSensorDriver</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="currentNode">
+      <UniqueIdentifier>{94918ec1-24ca-498a-b541-ec38b567e0de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="newSensorDriver">
+      <UniqueIdentifier>{66c3dd64-4f23-484a-b37d-3a9925e8330a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="currentCode\CarController.h">
+      <Filter>currentNode</Filter>
+    </ClInclude>
+    <ClInclude Include="currentCode\Sensor.h">
+      <Filter>currentNode</Filter>
+    </ClInclude>
+    <ClInclude Include="newSensorDriver\SensorV2.h">
+      <Filter>newSensorDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="currentCode\SensorExceptionSupressor.h">
+      <Filter>currentNode</Filter>
+    </ClInclude>
+    <ClInclude Include="newSensorDriver\Exceptions.h">
+      <Filter>newSensorDriver</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
