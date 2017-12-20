@@ -1,0 +1,64 @@
+#include <iostream>
+
+using std::cout;
+using std::endl;
+
+class G
+{
+public:
+	G() { cout << "in G::G()\n"; }
+	G(int i) { cout << "in G::G(int)\n"; }
+};
+
+class F : public virtual G
+{
+public:
+	F() { cout << "in F::F()\n"; }
+	F(int i) : G(i) { cout << "in F::F(int)\n"; }
+};
+
+class E : public virtual G
+{
+public:
+	E() { cout << "in E::E()\n"; }
+	E(int i) : G(i) { cout << "in E::E(int)\n"; }
+};
+
+class D : public virtual E, public virtual F
+{
+public:
+	D() { cout << "in D::D()\n"; }
+	D(int i) : E(i), F(i) { cout << "in D::D(int)\n"; }
+};
+
+class C : public virtual D
+{
+public:
+	C() { cout << "in C::C()\n"; };
+	C(int i) : D(i) { cout << "in C::C(int)\n"; }
+};
+
+class B : public virtual D
+{
+public:
+	B() { cout << "in B::B()\n"; };
+	B(int i) : D(i) { cout << "in B::B(int)\n"; }
+};
+
+class A : public B, C
+{
+public:
+	A() { cout << "in A::A()\n"; };
+	A(int i) : G(i), E(i), F(i), D(i), B(i), C(i) { cout << "in A::A(int)\n"; }
+};
+
+
+int main()
+{
+	A e1(2);
+	A e2;
+	
+	cout << endl;
+	system("PAUSE");
+	return 0;
+}
