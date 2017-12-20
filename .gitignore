@@ -1,7 +1,10 @@
 # Visual Studio
 Debug/
-Release/
+*/Release
 /.vs
+*.iobj
+*.*pdb
+Patterns.exe
 
 # Prerequisites
 *.d
@@ -32,6 +35,5 @@ Release/
 *.lib
 
 # Executables
-*.exe
 *.out
 *.app
